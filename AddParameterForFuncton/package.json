@@ -1,0 +1,16 @@
+{
+  "name": "addparameterforfuncton",
+  "version": "1.0.0",
+  "description": "为函数添加参数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.23.4",
+    "@babel/parser": "^7.23.4",
+    "@babel/traverse": "^7.23.4"
+  }
+}
