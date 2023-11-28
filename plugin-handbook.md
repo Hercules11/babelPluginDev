@@ -1741,7 +1741,7 @@ defineType("MemberExpression", {
 通过查看 ` 生成器 ` 属性, 可以看到调用生成器方法所需的3个参数 (` t. 情况 `).
 
 ```js
-生成器: ["object", "property", "computed"],
+builder: ["object", "property", "computed"],
 ```
 
 > 请注意，有时在节点上可以定制的属性比``构建器</>数组包含的属性更多。 这是为了防止生成器有太多的参数。 在这些情况下，您需要手动设置属性。 一个例子是<class> ClassMethod </>.</p>
@@ -2041,7 +2041,7 @@ class Foo {
 首先我们需要一个babel插件，我们将把它放在src / index.js中。
 
 ```js
-<br />module.exports = function testPlugin(babel) {
+module.exports = function testPlugin(babel) {
   return {
     visitor: {
       Identifier(path) {
