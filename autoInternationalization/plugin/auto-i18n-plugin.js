@@ -53,7 +53,7 @@ const autoTrackPlugin = declare((api, options, dirname) => {
 
 	// pre(file)分别对应插件在处理文件之前、visitor在遍历抽象语法树（AST）过程中和post(file)处理文件之后执行的操作
 	return {
-		// file represents state in entire project.
+		// file represents state in file.
 		pre(file) {
 			file.set("allText", []);
 		},

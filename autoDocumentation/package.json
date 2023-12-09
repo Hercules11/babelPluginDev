@@ -1,0 +1,21 @@
+{
+  "name": "autodocumentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/helper-plugin-utils": "^7.22.5",
+    "@babel/parser": "^7.23.5",
+    "doctrine": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  }
+}
