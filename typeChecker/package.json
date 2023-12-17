@@ -1,0 +1,18 @@
+{
+  "name": "typechecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sourceCode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/helper-plugin-utils": "^7.22.5",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
