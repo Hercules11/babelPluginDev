@@ -27,4 +27,4 @@ const { code } = transformFromAstSync(ast, sourceCode, {
 	comments: true,
 });
 
-// console.log(code);
+// console.log(code); `
