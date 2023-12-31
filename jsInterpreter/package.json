@@ -1,0 +1,17 @@
+{
+  "name": "jsinterpreter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/code-frame": "^7.23.5",
+    "@babel/parser": "^7.23.6",
+    "chalk": "^4.1.1"
+  }
+}
